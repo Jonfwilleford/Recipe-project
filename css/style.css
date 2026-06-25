@@ -1,0 +1,23 @@
+
+
+body {
+    text-align: center;
+}
+
+nav a {
+    color: green;
+    display: block;
+    text-align: start;
+    margin-left: 50px;
+    
+}
+
+.description-card dl{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ingredients-card ul, 
+.directions-card ol{
+    text-align: start;
+}
